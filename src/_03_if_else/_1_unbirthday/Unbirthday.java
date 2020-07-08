@@ -6,10 +6,13 @@ public class Unbirthday {
 
 	public static void main(String[] args) {
 		
-		JOptionPane.showInputDialog("When is your birthday?"); 
+		String birthday = JOptionPane.showInputDialog("When is your birthday?"); 
 		
-		
-		
+		if (birthday.equalsIgnoreCase("July 8th, 2020")) {
+			JOptionPane.showConfirmDialog(null, "Happpy Birthday");
+			
+		}
+	
 	}
 	
 }
