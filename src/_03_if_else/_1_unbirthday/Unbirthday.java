@@ -12,7 +12,8 @@ public class Unbirthday {
 			JOptionPane.showConfirmDialog(null, "Happpy Birthday");
 			
 		}
-	
+		
+		else {JOptionPane.showConfirmDialog(null, "Happy UnBirthday");}
 	}
 	
 }
